@@ -1,0 +1,5 @@
+Since you're following Hitesh Choudhary's GenAI series and you'll be creating multiple Next.js apps, I recommend always starting a new project with:
+
+npx create-next-app@latest
+
+and avoid copying an old package.json between projects. That prevents exactly the kind of version mismatch you hit (next@9 with React 19).
